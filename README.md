@@ -5,6 +5,7 @@ This project aims to predict the Adjusted Closing Price of Microsoft stock using
 
 ### Steps Involved:
 1. Data Collection & Preprocessing:
+   
 a. Loading the Microsoft stock price dataset.
 
 b. Extracting the Adjusted Closing Price as the target variable.
@@ -12,21 +13,25 @@ b. Extracting the Adjusted Closing Price as the target variable.
 c. Normalized the data for better model performance.
 
 2. Data Preparation Using Time Series Generator:
+
 a. Converted the time series data into supervised learning format.
 
 b. Splitted the data into training and testing sets.
 
 3. Model Training:
+
 a. Training a Simple RNN model.
 
 b. Training a Bidirectional LSTM model.
 
 4. Model Evaluation:
+
 a. Compared both models using MSE and MAE.
 
 b. Identified the best-performing model.
 
 ### Results:
+
 a. Simple RNN achieved lower MSE and MAE compared to Bidirectional LSTM, making it the better-performing model.
 
 b. The findings suggest that Simple RNN is more effective than Bidirectional LSTM in forecasting Microsoft’s stock prices.
