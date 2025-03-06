@@ -3,7 +3,8 @@
 ### Overview:
 This project aims to predict the Adjusted Closing Price of Microsoft stock using time series forecasting techniques. Two deep learning models—Simple RNN and Bidirectional LSTM—are implemented and evaluated. Before model training, the dataset is normalized, and a Time Series Generator is used to prepare the sequential data. The models are compared using Mean Squared Error (MSE) and Mean Absolute Error (MAE), and the results indicate that Simple RNN outperforms Bidirectional LSTM with lower error values.
 
-# Steps Involved:
+### Steps Involved:
+
 1. Data Collection & Preprocessing:
    
 a. Loading the Microsoft stock price dataset.
