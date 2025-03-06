@@ -21,7 +21,7 @@ b. Training a Bidirectional LSTM model.
 a. Compared both models using MSE and MAE.
 b. Identified the best-performing model.
 
-5. Results:
+### Results:
 a. Simple RNN achieved lower MSE and MAE compared to Bidirectional LSTM, making it the better-performing model.
 b. The findings suggest that Simple RNN is more effective than Bidirectional LSTM in forecasting Microsoft’s stock prices.
 
